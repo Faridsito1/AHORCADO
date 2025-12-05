@@ -27,6 +27,12 @@
         label="Ciencia"
         @click="seleccionar('ciencia')"    
       />
+
+      <CustomButton
+        label="Regresar"
+        @click="regresar"
+        style="margin-top: 30px; background: #b71c1c; color: white;"
+      />
     </div>
   </div>
 </template>
@@ -40,6 +46,10 @@ const router = useRouter();
 function seleccionar(cat) {
   router.push(`/dificultad?cat=${cat}`);
 }
+
+function regresar() {
+  router.push(`/`); 
+}
 </script>
 
 <style scoped>
@@ -49,7 +59,7 @@ function seleccionar(cat) {
 }
 
 .titulo {
-  font-size: 40px;
+  font-size: 80px;
   margin-bottom: 40px;
 }
 
