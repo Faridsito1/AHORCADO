@@ -88,6 +88,8 @@ const letras = Array.from("ABCDEFGHIJKLMNÑOPQRSTUVWXYZ").map(char => ({
 
 .dibujo {
   margin-bottom: 20px;
+  transform: scale(1.6);
+  transform-origin: center;
 }
 
 .titulo {
