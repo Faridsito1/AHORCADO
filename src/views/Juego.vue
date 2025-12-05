@@ -216,11 +216,11 @@ onUnmounted(() => {
 }
 
 .cronometro {
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .tiempo {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   color: #2c3e50;
   background: #ecf0f1;
@@ -244,6 +244,8 @@ onUnmounted(() => {
 
 .dibujo {
   margin-bottom: 30px;
+  transform: scale(1.6);
+  transform-origin: center;
 }
 
 .palabra {
